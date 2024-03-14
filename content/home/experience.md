@@ -20,25 +20,14 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Research"
   company_url = ""
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-      rapid prototyping of Isolated
-      Bidirectional Full-Bridge DC-DC Converter Control
-      for Electric Vehicle Applications
-  """
+  date_start = "2022-12-20"
+  date_end = "2023-01-20"
+  description = "rapid prototyping of Isolated Bidirectional Full-Bridge DC-DC Converter Control for Electric Vehicle Applications"
 
 [[experience]]
   title = "Research"
   company_url = ""
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-      Conducted research on Silicon (Si) and Gallium
-      Nitride (GaN) based DC-DC Converters under the
-      guidance of Dr. Ishtiyaq Makda at Habib University,
-      during the summer of 2023. Along with, publication
-      in INMIC 2023 conference for the work done in this
-      program.
-  """
+  date_start = "2023-06-01"
+  date_end = "2023-07-31"
+  description = "Conducted research on Silicon (Si) and Gallium Nitride (GaN) based DC-DC Converters under the guidance of Dr. Ishtiyaq Makda at Habib University, during the summer of 2023. Along with, publication in INMIC 2023 conference for the work done in this program."
 +++
