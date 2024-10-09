@@ -16,9 +16,9 @@ hero_media = "CV_latex_Profile_Pic.png"  # Replace with your new image
   # Choose a light or dark text color by setting `text_color_light`.
   # Any HTML color name or Hex value is valid.
 
-  # Background gradient.
-  gradient_start = "#4bb4e3"  # Light blue
-  gradient_end = "#1a73e8"    # Dark blue
+# Background gradient.
+gradient_start = "#2C3E50"  # Dark navy blue
+gradient_end = "#BDC3C7"    # Light gray
   
   # Text color (true=light or false=dark).
   text_color_light = true  # Light text color for better contrast
