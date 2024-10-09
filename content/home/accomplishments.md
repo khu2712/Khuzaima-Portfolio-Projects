@@ -1,32 +1,57 @@
 +++
 # Experience widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+widget = "accomplishments"
+headless = true
+active = true
+weight = 40
 
 title = "Accomplish&shy;ments"
-subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
+subtitle = "Previous Associations That Helped to Gather Experience"
 
 # Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+# Styling for the accomplishments section
+[design]
+  background_color = "#f9f9f9"  # Light background for a clean look
+  text_color = "#333333"        # Dark text for readability
 
+[animations]
+  fade_in = true                # Enable fade-in animation
+  fade_in_duration = 0.8        # Duration of the fade-in effect
+  fade_in_easing = "ease-in-out"  # Easing function for the animation
+
+# Experiences
+[[experience]]
+  title = "Academic Scholarships"
+  company = "Habib University"
+  date_start = "Aug 2019"
+  date_end = "May 2023"
+  description = """Received a 90% academic scholarship for AS Level and a 100% scholarship for A2 Levels.
+  Recognized for academic excellence throughout my studies."""
 
 [[experience]]
-  description = "90% academic scholarship in AS Level and 100% Scholarship in A2 Levels."
+  title = "Dean’s List Award"
+  company = "Habib University"
+  date_start = "Fall 2022"
+  description = """Awarded for exceptional academic performance and maintaining a GPA above the specified threshold."""
+
 [[experience]]
-  description = "Academic Scholarship at Habib University"
+  title = "Sponsorship Lead"
+  company = "HU Sports Olympiad & ATOMOS Science Olympiad"
+  date_start = "2022"
+  description = """Responsible for securing sponsorships and partnerships for both events, enhancing participation and visibility."""
+
 [[experience]]
-  description = "Dean’s List Award for Fall 2022"
+  title = "Certification in Project Management"
+  company = "Coursera"
+  date_start = "2023"
+  description = """Completed a project management certification to enhance organizational and leadership skills."""
+  
 [[experience]]
-  description = "Sponsorship Lead in HU Sports Olympiad and ATOMOS science Olympiad."
+  title = "FPGA-In-Loop/HIL Simulation"
+  company = "Habib University"
+  date_start = "2023"
+  description = """Conducted simulations to validate control systems in real-time applications, enhancing practical understanding."""
 
 +++
-
