@@ -1,54 +1,43 @@
 +++
-# Slider widget.
-widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
+# Slider widget with enhanced animations
+widget = "slider"
+headless = true
+active = true  # Activate this widget
+weight = 1
 
-# Slide interval.
-# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+# Slide interval for smooth transition
+interval = 5000  # 5 seconds
 
-# Slide height (optional).
-# E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = ""
+# Slide height
+height = "calc(100vh - 70px)"  # Full height minus header
 
-# Slides.
-# Duplicate an `[[item]]` block to add more slides.
+# Slides
 [[item]]
-  title = "Hello"
-  content = "I am center aligned :smile:"
-  align = "center"  # Choose `center`, `left`, or `right`.
+  title = "Welcome to My Portfolio"
+  content = "Discover my journey and expertise in the field."
+  align = "center"
 
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#333"  # Dark overlay for readability
+  overlay_filter = 0.5  # Darken the overlay
 
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Get academia"
-  cta_url = "https://sourcethemes.com/academic/"
+  cta_label = "Learn More"
+  cta_url = "https://khuzaimaalikhan.netlify.app/"
   cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
+  cta_icon = "info-circle"
 
 [[item]]
-  title = "Left"
-  content = "I am left aligned :smile:"
+  title = "Innovative Solutions"
+  content = "Committed to providing innovative and efficient solutions."
   align = "left"
 
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#444"
+  overlay_filter = 0.5
 
 [[item]]
-  title = "Right"
-  content = "I am right aligned :smile:"
+  title = "Get in Touch"
+  content = "Let’s collaborate to create something extraordinary."
   align = "right"
 
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_color = "#555"
+  overlay_filter = 0.5
 +++
