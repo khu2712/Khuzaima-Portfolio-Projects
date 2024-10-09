@@ -18,7 +18,7 @@ title = "Professional Skills and Expertise"
   name = "Simulink"
 
 [[feature]]
-  icon = "circuit"  # Icon for LT Spice
+  icon = "microchip"  # Icon for LT Spice
   icon_pack = "fas"
   name = "LT Spice"
 
