@@ -5,6 +5,10 @@ headless = true
 active = true
 weight = 30
 
+[design]
+  background_color = "#f0f0f0"  # Light grey background
+  text_color = "#333333"        # Dark grey text for contrast
+  
 title = "Professional Skills and Expertise"
 
 [[feature]]
