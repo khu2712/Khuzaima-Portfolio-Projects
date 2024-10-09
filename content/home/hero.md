@@ -37,13 +37,7 @@ hero_media = "Khuzaima_picture_HD.png"
 +++
 ## **Khuzaima Ali Khan** 
 
-Electrical Engineering student at Habib University with a standout
-CGPA of 3.82, I combine deep technical expertise from my internship
-at Qistbazaar with proven leadership in coordinating university events
-and sports clubs. Adept in Python, C++, and emerging technologies like
-Large Language Models, I excel in team-oriented environments,
-bringing a blend of innovative problem-solving and effective
-communication skills to drive collaborative success in technical roles.
+A Senior Electrical Engineering student at Habib University, passionate about learning, innovating, and exploring. With deep expertise in Power Electronics Converters, Electric Vehicles, and Principles of Feedback Control, I excel in programming, simulation, and system design. Skilled in power system analysis and designing, FPGA-In-Loop/HIL simulations, and computer-aided design, Research interests also include Renewable Energy Integration, Smart Grids, and Power System Analysis and Protections along with emerging technologies like Large Language Models.
 
 ### **Interests**
 - Feedback and Control
