@@ -2,7 +2,7 @@
 # Slider widget with enhanced animations
 widget = "slider"
 headless = true
-active = true  # Activate this widget
+active = false  # Activate this widget
 weight = 1
 
 # Slide interval for smooth transition
