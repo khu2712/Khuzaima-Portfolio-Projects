@@ -44,3 +44,11 @@ and sports clubs. Adept in Python, C++, and emerging technologies like
 Large Language Models, I excel in team-oriented environments,
 bringing a blend of innovative problem-solving and effective
 communication skills to drive collaborative success in technical roles.
+
+### **Interests**
+- Feedback and Control
+- Power Systems Analysis
+- Power Generation and Transmission
+- AI and Machine Learning
+- Large Language Models
+- IoT and Micro-Controllers

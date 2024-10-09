@@ -30,4 +30,11 @@ date_format = "Jan 2006"
   date_start = "2023-06-01"
   date_end = "2023-07-31"
   description = "Conducted research on Silicon (Si) and Gallium Nitride (GaN) based DC-DC Converters under the guidance of Dr. Ishtiyaq Makda at Habib University, during the summer of 2023. Along with, publication in INMIC 2023 conference for the work done in this program."
+
+[[experience]]
+  title = "Teaching"
+  company_url = "Habib University"
+  date_start = "2023-06-01"
+  date_end = "2023-07-31"
+  description = "\n - Calculus I \n - Calculus II \n - Engineering Mathematics \n - Linear Algebra \n - Electro Magnetic Theory "
 +++
