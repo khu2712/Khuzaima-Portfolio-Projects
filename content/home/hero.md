@@ -40,9 +40,9 @@ hero_media = "Khuzaima_picture_HD.png"
 A Senior Electrical Engineering student at Habib University, passionate about learning, innovating, and exploring. With deep expertise in Power Electronics Converters, Electric Vehicles, and Principles of Feedback Control, I excel in programming, simulation, and system design. Skilled in power system analysis and designing, FPGA-In-Loop/HIL simulations, and computer-aided design, Research interests also include Renewable Energy Integration, Smart Grids, and Power System Analysis and Protections along with emerging technologies like Large Language Models.
 
 ### **Interests**
+- Power Electronics
 - Feedback and Control
 - Power Systems Analysis
 - Power Generation and Transmission
-- AI and Machine Learning
-- Large Language Models
+- AI, Machine Learning and LLM
 - IoT and Micro-Controllers
