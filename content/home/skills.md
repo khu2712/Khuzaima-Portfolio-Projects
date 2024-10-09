@@ -15,6 +15,21 @@ title = "Professional Skills and Expertise"
 [[feature]]
   icon = "code"
   icon_pack = "fas"
+  name = "Simulink"
+
+[[feature]]
+  icon = "circuit"  # Icon for LT Spice
+  icon_pack = "fas"
+  name = "LT Spice"
+
+[[feature]]
+  icon = "microchip"  # Icon for ALTIUM Designer
+  icon_pack = "fas"
+  name = "ALTIUM Designer"
+
+[[feature]]
+  icon = "code"
+  icon_pack = "fas"
   name = "C++"
 
 [[feature]]
@@ -26,11 +41,6 @@ title = "Professional Skills and Expertise"
   icon = "microchip"
   icon_pack = "fas"
   name = "Arduino" 
-
-[[feature]]
-  icon = "code"
-  icon_pack = "fas"
-  name = "Simulink"
   
 [[feature]]
   icon = "laptop-code"
@@ -66,14 +76,4 @@ title = "Professional Skills and Expertise"
   icon = "video"
   icon_pack = "fas"
   name = "Video Editing"
-
-[[feature]]
-  icon = "circuit-board"  # Icon for LT Spice
-  icon_pack = "fas"
-  name = "LT Spice"
-
-[[feature]]
-  icon = "lightbulb"  # Icon for ALTIUM Designer
-  icon_pack = "fas"
-  name = "ALTIUM Designer"
 +++
