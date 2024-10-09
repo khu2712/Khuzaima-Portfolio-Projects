@@ -19,6 +19,11 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon_pack = "fas"
   name = "MATLAB"
 
+# [[feature]]
+#   icon = "codepen"
+#   icon_pack = "fab"
+#   name = "check" 
+
 [[feature]]
   name = "C++"
   icon = "code"

@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company_url = ""
   date_start = "2022-12-20"
   date_end = "2023-01-20"
-  description = "rapid prototyping of Isolated Bidirectional Full-Bridge DC-DC Converter Control for Electric Vehicle Applications"
+  description = "Rapid prototyping of Isolated Bidirectional Full-Bridge DC-DC Converter Control for Electric Vehicle Applications"
 
 [[experience]]
   title = "Research"
