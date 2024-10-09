@@ -12,16 +12,15 @@ subtitle = "Innovating with Technology and Excellence"
   columns = "1"
 
 [design.background]
-  # Background gradient with a modern color palette.
-  gradient_start = "#1a1a1a"
-  gradient_end = "#333333"
+  # Background gradient matching your portfolio's color scheme.
+  gradient_start = "#4A90E2"  # Light blue
+  gradient_end = "#003A70"    # Darker blue
   text_color_light = true
 
 [design.spacing]
   padding = ["50px", "20px", "50px", "20px"]
 
 [animations]
-  # Adding fade-in and slide-up animation for a smooth appearance.
   scroll_reveal = true
   scroll_reveal_delay = 0.2
   scroll_reveal_distance = "40px"
