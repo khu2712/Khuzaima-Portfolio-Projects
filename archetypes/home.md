@@ -1,37 +1,48 @@
 +++
-# A sleek, animated section with a professional look
-widget = "blank"
-headless = true
-active = true
-weight = 1
+# A section created with the Blank widget.
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 1  # Order that this section will appear.
 
-title = "Explore {{ replace .Name "-" " " | title }}"
-subtitle = "Innovating with Technology and Excellence"
+# Note: a full width section format can be enabled by commenting out the title and subtitle with a #.
+title = "{{ replace .Name "-" " " | title }}"
+subtitle = ""
 
 [design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
 
 [design.background]
-  # Background gradient matching your portfolio's color scheme.
-  gradient_start = "#4A90E2"  # Light blue
-  gradient_end = "#003A70"    # Darker blue
-  text_color_light = true
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing #) an option to apply it.
+  #   Choose a light or dark text color by setting text_color_light.
+  #   Any HTML color name or Hex value is valid.
+
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  # image = "image.jpg"  # Name of image in static/img/.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  # text_color_light = true
 
 [design.spacing]
-  padding = ["50px", "20px", "50px", "20px"]
-
-[animations]
-  scroll_reveal = true
-  scroll_reveal_delay = 0.2
-  scroll_reveal_distance = "40px"
-  scroll_reveal_view_offset = 100
-  scroll_reveal_easing = "ease-out"
+  # Customize the section spacing. Order is top, right, bottom, left.
+  # padding = ["0px", "0px", "0px", "0px"]
 
 [advanced]
- css_style = "text-align: center; animation: fadeInUp 1s ease;"
- css_class = "custom-animate"
-
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 +++
 
-[**Learn More**](https://wowchemy.com/)
-
+[*Add some elements here*](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
