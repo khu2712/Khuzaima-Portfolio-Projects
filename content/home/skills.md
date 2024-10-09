@@ -7,8 +7,6 @@ weight = 30
 
 title = "Professional Skills and Expertise"
 
-# Highlight your core competencies with elegance.
-
 [[feature]]
   icon = "cogs"
   icon_pack = "fas"
@@ -68,4 +66,14 @@ title = "Professional Skills and Expertise"
   icon = "video"
   icon_pack = "fas"
   name = "Video Editing"
+
+[[feature]]
+  icon = "circuit-board"  # Icon for LT Spice
+  icon_pack = "fas"
+  name = "LT Spice"
+
+[[feature]]
+  icon = "lightbulb"  # Icon for ALTIUM Designer
+  icon_pack = "fas"
+  name = "ALTIUM Designer"
 +++
