@@ -74,7 +74,7 @@ title = "Skills"
   icon_pack = "fas"
 +++ -->
 +++
-# Skills section with Featurette widget
+<!-- #Skills section with Featurette widget -->
 widget = "featurette"
 headless = true
 active = true
@@ -82,7 +82,7 @@ weight = 30
 
 title = "Technical Expertise"
 
-# Highlight personal skills with clear and precise descriptions.
+<!-- # Highlight personal skills with clear and precise descriptions. -->
 
 [[feature]]
   icon = "cogs"
