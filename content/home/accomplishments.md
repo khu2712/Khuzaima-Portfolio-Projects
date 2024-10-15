@@ -3,7 +3,7 @@
 widget = "experience"
 headless = true
 active = true
-weight = 40
+weight = 45
 
 title = "Work Experience"
 subtitle = "Professional Roles That Shaped My Expertise"
