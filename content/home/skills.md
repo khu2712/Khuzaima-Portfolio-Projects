@@ -23,6 +23,16 @@ title = "Professional Skills and Expertise"
   name = "LT Spice"
 
 [[feature]]
+  icon = "microchip"  # Icon for LT Spice
+  icon_pack = "fas"
+  name = "PSpice"
+
+[[feature]]
+  icon = "code"  # Icon for LT Spice
+  icon_pack = "fas"
+  name = "Xilinx Vivado"
+
+[[feature]]
   icon = "microchip"  # Icon for ALTIUM Designer
   icon_pack = "fas"
   name = "ALTIUM Designer"
