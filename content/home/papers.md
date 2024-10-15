@@ -27,13 +27,7 @@ subtitle = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
-
-  # Background color for a formal aesthetic.
   color = "#f0f0f0"  # Light gray for a clean look
-
-  # Optional background gradient for a more dynamic feel.
-  # gradient_start = "#e0e0e0"  # Light gray
-  # gradient_end = "#ffffff"    # White
 
   # Text color (true=light or false=dark).
   text_color_light = false  # Dark text for readability
@@ -41,11 +35,25 @@ subtitle = ""
 [advanced]
  # Custom CSS. 
  css_style = """
+   .portfolio {
+     padding: 30px;  # Add padding around the entire section
+     background-color: #f0f0f0;  # Background for the section
+   }
    .portfolio-item {
-     border: 1px solid #ddd;  # Add a subtle border around items
+     border: 1px solid #ccc;  # Subtle border around items
      border-radius: 8px;      # Rounded corners for a modern look
-     padding: 15px;            # Add padding inside each item
+     padding: 20px;           # Add padding inside each item
      background-color: #ffffff;  # White background for items
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  # Subtle shadow for depth
+     margin-bottom: 20px;     # Space between cards
+   }
+   .portfolio-item h3 {
+     margin-bottom: 10px;     # Space below the title
+   }
+   .portfolio-item img {
+     max-width: 100%;         # Ensure images are responsive
+     height: auto;            # Maintain aspect ratio
+     border-radius: 4px;      # Rounded corners for images
    }
  """
 
