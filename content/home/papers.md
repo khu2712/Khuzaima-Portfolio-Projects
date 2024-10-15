@@ -8,8 +8,14 @@ title = "Published and Accepted Research Work"
 subtitle = ""
 
 [content]
-  # Page type to display. E.g. project.
-  page_type = "papers"
+  # Page type to display.
+  page_type = "project"  # We use "project" as the widget expects it for portfolio display
+
+  # Directory where the papers are stored
+  folder = "papers"
+
+  # How many entries to show per page
+  count = 5
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -26,37 +32,44 @@ subtitle = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
-  color = "#f0f0f0"  # Light gray for a clean look
+  color = "#f0f0f0"
 
   # Text color (true=light or false=dark).
-  text_color_light = false  # Dark text for readability
-  
+  text_color_light = false
+
 [advanced]
  # Custom CSS. 
  css_style = """
    .portfolio {
-     padding: 30px;  # Add padding around the entire section
-     background-color: #f0f0f0;  # Background for the section
+     padding: 30px;
+     background-color: #f0f0f0;
    }
    .portfolio-item {
-     display: flex;                 # Use flexbox for alignment
-     align-items: center;           # Center items vertically
-     border: 1px solid #ccc;        # Subtle border around items
-     border-radius: 8px;            # Rounded corners for a modern look
-     padding: 20px;                 # Add padding inside each item
-     background-color: #ffffff;     # White background for items
-     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  # Subtle shadow for depth
-     margin-bottom: 20px;           # Space between cards
+     display: flex;
+     align-items: center;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     padding: 20px;
+     background-color: #ffffff;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
    }
    .portfolio-item img {
-     max-width: 100px;              # Fixed width for images
-     height: auto;                   # Maintain aspect ratio
-     border-radius: 4px;            # Rounded corners for images
-     margin-right: 20px;             # Space between image and text
+     max-width: 100px;
+     height: auto;
+     border-radius: 4px;
+     margin-right: 20px;
    }
    .portfolio-item h3 {
-     margin: 0;                      # Remove default margin from titles
-     font-size: 1.2em;               # Adjust font size if necessary
+     margin: 0;
+     font-size: 1.2em;
+   }
+   .portfolio-item a {
+     text-decoration: none;
+     color: #007bff;
+   }
+   .portfolio-item a:hover {
+     text-decoration: underline;
    }
  """
 
