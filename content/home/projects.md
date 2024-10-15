@@ -6,7 +6,7 @@ active = true
 weight = 65
 
 title = "Projects"
-subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
+subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [content]
   page_type = "project"
