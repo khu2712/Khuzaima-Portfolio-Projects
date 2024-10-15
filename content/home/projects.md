@@ -18,14 +18,20 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 [advanced]
   css_style = """
     .project-card { 
-      min-height: 400px;  # Set a minimum height for cards
+      height: 450px;     # Set a fixed height for cards
       display: flex;       # Use flexbox for alignment
       flex-direction: column; # Align content vertically
       justify-content: space-between; # Distribute space
+      padding: 15px;     # Add padding for inner spacing
+      border: 1px solid #ddd;  # Optional: Add border for better visibility
+      border-radius: 8px;  # Optional: Rounded corners
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); # Optional: Add shadow for depth
+      background-color: #fff; # Optional: Set background color
     }
     .project-card img {
       max-width: 100%;    # Ensure images are responsive
       height: auto;       # Maintain aspect ratio
+      flex-shrink: 0;     # Prevent images from shrinking
     }
     .project-card h3 {
       margin: 0;          # Remove default margins
