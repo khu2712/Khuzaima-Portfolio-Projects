@@ -51,7 +51,7 @@ subtitle = ""
    .portfolio-item img {
      max-width: 100px;              # Fixed width for images
      height: auto;                   # Maintain aspect ratio
-     border-radius: 4px;             # Rounded corners for images
+     border-radius: 4px;            # Rounded corners for images
      margin-right: 20px;             # Space between image and text
    }
    .portfolio-item h3 {
