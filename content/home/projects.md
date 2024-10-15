@@ -19,6 +19,17 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
   css_style = """
     .project-card { 
       min-height: 400px;  # Set a minimum height for cards
+      display: flex;       # Use flexbox for alignment
+      flex-direction: column; # Align content vertically
+      justify-content: space-between; # Distribute space
+    }
+    .project-card img {
+      max-width: 100%;    # Ensure images are responsive
+      height: auto;       # Maintain aspect ratio
+    }
+    .project-card h3 {
+      margin: 0;          # Remove default margins
+      font-size: 1.25em;  # Adjust font size if necessary
     }
   """
 +++
