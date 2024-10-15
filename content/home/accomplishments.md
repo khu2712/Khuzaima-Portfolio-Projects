@@ -26,7 +26,6 @@ date_format = "2006-01-02"
   title = "Research Assistant"
   company = "Dhanani School of Science and Engineering, Habib University"
   date_start = "2024-08-01"
-  date_end = "Present"
   description = """Teaching labs in Electric Circuits, Feedback Control, Digital Logic and Design, and Robotics. Advising a Final Year Project (FYP) group working on Battery Energy Storage Systems (BESS) and Electric Vehicle (EV) integration."""
 
 [[experience]]
