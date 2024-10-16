@@ -76,4 +76,8 @@ subtitle = ""
 
  # CSS class.
  css_class = ""
+<<<<<<< HEAD
  +++
+=======
++++
+>>>>>>> 47c78053c6662930c5f28297d74e10dc6bbe2eb9
