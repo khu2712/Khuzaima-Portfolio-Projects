@@ -10,7 +10,7 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [content]
   page_type = "Papers"
-  folder = "papers"
+  folder = "papers/paper 1"
 
 [design]
   columns = "2"  # Two-column layout
