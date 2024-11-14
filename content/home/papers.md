@@ -10,7 +10,7 @@ subtitle = ""
 
 [content]
   # Page type to display.
-  page_type = "project"  # We use "project" as the widget expects it for portfolio display
+  page_type = "project"  # Ensure each paper's file has `type: project` in YAML
 
   # Directory where the papers are stored
   folder = "papers"
@@ -26,7 +26,7 @@ subtitle = ""
   #   1 = List
   #   3 = Card
   #   5 = Showcase
-  view = 5
+  view = 3  # Changed to Card view for testing
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -39,7 +39,7 @@ subtitle = ""
   text_color_light = false
 
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = """
    .portfolio {
      padding: 30px;
@@ -76,8 +76,4 @@ subtitle = ""
 
  # CSS class.
  css_class = ""
-<<<<<<< HEAD
- +++
-=======
 +++
->>>>>>> 47c78053c6662930c5f28297d74e10dc6bbe2eb9
