@@ -10,6 +10,7 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [content]
   page_type = "project"
+  folder = "projects"  # Directory where the project markdown files are stored
 
 [design]
   columns = "2"  # Ensure two-column layout
@@ -39,3 +40,13 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
     }
   """
 +++
+
+# Loop through the markdown files in the `projects` folder to create project cards.
+{{ range .Site.GetPage "section" "projects" }}
+  <div class="project-card">
+    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Params.short_description }}</p>
+    <a href="{{ .Permalink }}">Learn more</a>
+  </div>
+{{ end }}
