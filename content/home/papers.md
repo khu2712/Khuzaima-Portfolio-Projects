@@ -9,8 +9,8 @@ title = "Published and Accepted Research Work"
 subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [content]
-  page_type = "Papers"
-  folder = "papers/paper 1"
+  page_type = "papers"
+  #folder = "papers"
 
 [design]
   columns = "2"  # Two-column layout
