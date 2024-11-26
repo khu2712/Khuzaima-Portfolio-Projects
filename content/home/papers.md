@@ -13,8 +13,8 @@ title = "Research Work"
   folder = "papers"  # Directory where the project markdown files are stored
 
 [design]
-  columns = "1"  # Ensure two-column layout
-  view = 1       # Use Card layout for uniformity
+  columns = "2"  # Ensure two-column layout
+  view = 3       # Use Card layout for uniformity
 
 [advanced]
   css_style = """
