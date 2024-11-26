@@ -5,7 +5,7 @@ headless = true
 active = true
 weight = 65
 
-title = "Proooooooooooosjects"
+title = "Projects"
 subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [content]
