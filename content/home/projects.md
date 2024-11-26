@@ -13,8 +13,8 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
   folder = "projects"  # Directory where the project markdown files are stored
 
 [design]
-  columns = "2"  # Ensure two-column layout
-  view = 3       # Use Card layout for uniformity
+  columns = "1"  # Ensure two-column layout
+  view = 2       # Use Card layout for uniformity
 
 [advanced]
   css_style = """
