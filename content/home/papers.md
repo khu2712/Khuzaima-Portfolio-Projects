@@ -14,7 +14,7 @@ title = "Research Work"
 
 [design]
   columns = "1"  # Ensure two-column layout
-  view = 2       # Use Card layout for uniformity
+  view = 3       # Use Card layout for uniformity
 
 [advanced]
   css_style = """
