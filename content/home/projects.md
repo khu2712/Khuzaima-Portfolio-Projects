@@ -14,7 +14,7 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY!"
 
 [design]
   columns = "2"  # Ensure two-column layout
-  view = 2      # Use Card layout for uniformity
+  view = 4      # Use Card layout for uniformity
 
 [advanced]
   css_style = """
