@@ -20,7 +20,7 @@ draft: false
 featured: true
 image:
   preview_only: false  # Ensures the image shows alongside text
-  name: "featured.jpg"  # Name of the image file (change as necessary)
+  name: "featured1.jpg"  # Name of the image file (change as necessary)
 links:
   - name: "Read Paper"
     url: "https://ieeexplore.ieee.org/document/10613953"  # Corrected URL format
@@ -34,7 +34,7 @@ draft: false
 featured: true
 image:
   preview_only: false  # Ensures the image shows alongside text
-  name: "featured.jpg"  # Name of the image file (change as necessary)
+  name: "featured2.jpg"  # Name of the image file (change as necessary)
 links:
   - name: "Read Paper"
     url: "https://ieeexplore.ieee.org/document/10614054"  # Corrected URL format
@@ -48,7 +48,7 @@ draft: false
 featured: true
 image:
   preview_only: false  # Ensures the image shows alongside text
-  name: "featured.jpg"  # Name of the image file (change as necessary)
+  name: "featured3.jpg"  # Name of the image file (change as necessary)
 links:
   - name: "Read Paper"
     url: "https://ieeexplore.ieee.org/document/10614037"  # Corrected URL format
@@ -62,7 +62,7 @@ draft: false
 featured: true
 image:
   preview_only: false  # Ensures the image shows alongside text
-  name: "featured.jpg"  # Name of the image file (change as necessary)
+  name: "featured4.jpg"  # Name of the image file (change as necessary)
 links:
   - name: "Read Paper"
     url: "https://pan.webis.de/publications.html#adnan_2024"  # Corrected URL format
