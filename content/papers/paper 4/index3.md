@@ -7,7 +7,7 @@ draft: false
 featured: true
 image:
   preview_only: false  # Ensures the image shows alongside text
-  name: "featured.jpg"  # Name of the image file (change as necessary)
+  name: "featured3.png"  # Name of the image file (change as necessary)
 links:
   - name: "Read Paper"
     url: "https://ieeexplore.ieee.org/document/10614037"  # Corrected URL format
