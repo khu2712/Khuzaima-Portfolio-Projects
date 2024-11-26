@@ -5,7 +5,7 @@ headless = true
 active = true
 weight = 45
 
-title = "Work Experience"
+title = "Work Experience-Khuzaima"
 subtitle = "Professional Roles That Shaped My Expertise"
 
 # Date format for experience
